@@ -1,0 +1,21 @@
+{
+  "name": "sabit-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.24",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "allowScripts": {
+    "@whiskeysockets/baileys@6.7.24": true,
+    "protobufjs@7.6.6": true
+  }
+}
